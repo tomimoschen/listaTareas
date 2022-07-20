@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap');
+* {
+    font-family: 'Prompt';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  body{
+    height: 100vh;
+    background-image: linear-gradient(to left top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    margin: 2%;
+}
+.container{
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+}
+#tareas{
+    position: relative;
+    padding: 30px 10px 20px 20px;
+}
+#tareas input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+#tareas input:focus{
+    outline: none;
+    border-color: #0d75ec;
+}
+#tareas button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #0d75ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+#tareasIngresadas{
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 10px 30px 20px 20px;
+}
+.tarea{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+    background-color: #c5e1e6;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+.tarea span{
+    font-family: 'Prompt';
+    font-size: 20px;
+}
+.tarea button{
+    background-color: #fa4141;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 80%;
+    width: 35px;
+    border-radius: 5px;
+}
